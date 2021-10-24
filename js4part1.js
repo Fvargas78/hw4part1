@@ -24,3 +24,10 @@ while(number <= 21) {
 
 $('#result3').text(product_1b);
 $('#result4').text(sum_1b);
+
+$( "#draggable" ).draggable();
+
+document.getElementById("result1").textContent = part1a_product(5, 21, 4);
+document.getElementById("result2").textContent = part1a_sum(5, 21, 4);
+document.getElementById("result3").textContent = part1b_product(3, 21, 3);
+document.getElementById("result4").textContent = part1b_sum(3, 21, 3);
