@@ -24,7 +24,8 @@ while(number <= 21) {
 $( function() {
     $( "#draggable" ).draggable();
   } );
-
+$('#result3').text(product_1b);
+$('#result4').text(sum_1b);
 
 document.getElementById("result1").textContent = part1a_product(5, 21, 4);
 document.getElementById("result2").textContent = part1a_sum(5, 21, 4);
